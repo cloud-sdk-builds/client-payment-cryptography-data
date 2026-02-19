@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-payment-cryptography-data`](https://www.npmjs.com/package/@aws-sdk/client-payment-cryptography-data/v/3.981.0).
+[`@aws-sdk/client-payment-cryptography-data`](https://www.npmjs.com/package/@aws-sdk/client-payment-cryptography-data/v/3.982.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.981.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.982.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-9Hg3wL+fc7XVZm0L+2NfXHbG/+uBO4JvmBdrlF26+dPbo5H9sVqVZ8/UD3tH2/f6
+sha384-RSCjWk+U1tIFRJ4fOBnlcKU5mTtOn8pHZHV/PbgmnlAHQrnPKvzWt4nOlRR1qzat
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-payment-cryptography-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.981.0/index.min.mjs"
+            "@aws-sdk/client-payment-cryptography-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.982.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.981.0/index.min.mjs": "sha384-9Hg3wL+fc7XVZm0L+2NfXHbG/+uBO4JvmBdrlF26+dPbo5H9sVqVZ8/UD3tH2/f6"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.982.0/index.min.mjs": "sha384-RSCjWk+U1tIFRJ4fOBnlcKU5mTtOn8pHZHV/PbgmnlAHQrnPKvzWt4nOlRR1qzat"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-payment-cryptography-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.981.0/index.min.mjs"
+                        "@aws-sdk/client-payment-cryptography-data": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.982.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.981.0/index.min.mjs": "sha384-9Hg3wL+fc7XVZm0L+2NfXHbG/+uBO4JvmBdrlF26+dPbo5H9sVqVZ8/UD3tH2/f6"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-payment-cryptography-data@3.982.0/index.min.mjs": "sha384-RSCjWk+U1tIFRJ4fOBnlcKU5mTtOn8pHZHV/PbgmnlAHQrnPKvzWt4nOlRR1qzat"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.981.0`)
+* Always pin to a specific version (`@3.982.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-payment-cryptography-data/blob/refs/tags/3.981.0/LICENSE
+https://github.com/cloud-sdk-builds/client-payment-cryptography-data/blob/refs/tags/3.982.0/LICENSE
 ```
 
 ---
